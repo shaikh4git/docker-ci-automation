@@ -74,7 +74,7 @@ jobs:
         id: docker_meta
         uses: docker/metadata-action@v5
         with:
-          images: shaikhdocker/docker-ci-automation,ghcr.io/shaikhdocker/docker-ci-automation
+          images: shaikhdocker/docker-ci-automation,ghcr.io/shaikh4git/docker-ci-automation
           flavor: |
             latest=false
           tags: |
